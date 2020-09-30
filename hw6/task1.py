@@ -5,7 +5,7 @@ from time import sleep
 class TrafficLight:
     __color = "Белый"
 
-    def work(self):
+    def running(self):
         while True:
             print('Красный свет')
             sleep(7)
@@ -18,4 +18,4 @@ class TrafficLight:
 
 
 TrafficLight = TrafficLight()
-TrafficLight.work()
+TrafficLight.running()
